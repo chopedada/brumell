@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.79.0" />
+    <title>Brumell Staffing</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.0/examples/blog/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/0191b82b39.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom styles for this template -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet" />
+    <!-- Jobs JS link -->
+    <script src="js/jobs.js"></script>
+  </head>
+
+  <body>
+    <div class="page-container">
+      <div class="content-wrap">
+        <header class="container blog-header py-3">
+          <div
+            class="row flex-nowrap justify-content-between align-items-center"
+          >
+            <div class="col-md-3 logo">
+              <img src="/img/logo.png" alt="" />
+            </div>
+            <div class="col-md-3 contact-icon">
+              <a class="row mb-1" href="tel:347-816-5215"
+                ><i class="fas fa-phone-square-alt"> 347-816-5215</i></a
+              >
+              <a class="row" href="mailto:info@brumellstaffing.com"
+                ><i class="fas fa-envelope"> info@brumellstaffing.com</i></a
+              >
+            </div>
+          </div>
+        </header>
+        <div class="container nav-scroller py-1 mb-3">
+          <nav class="d-flex justify-content-around">
+            <a class="p-2" href="/index.html">Home</a>
+            <a class="p-2" href="/index.html#about">About Us</a>
+            <a class="p-2" href="/jobs.html">Find Jobs</a>
+            <a class="p-2" href="#">Contact Us</a>
+          </nav>
+        </div>
+
+        <!-- Start Jobs Section -->
+
+        <div class="col-12 text-center mt-5">
+          <h1 class="text-dark pt-4">Find Jobs</h1>
+          <div class="border-top border-warning w-25 mx-auto my-3"></div>
+          <p class="lead">Your search for jobs ends here</p>
+        </div>
+
+        <div class="container job-list">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item" onclick="togglePopup(1)">
+              Director, Information Security
+            </li>
+            <li class="list-group-item" onclick="togglePopup(2)">
+              Cloud Architect
+            </li>
+            <li class="list-group-item" onclick="togglePopup(3)">
+              Account Executive
+            </li>
+          </ul>
+        </div>
+
+        <!-- Director, Info Sec. Popup -->
+        <div class="popup" id="popup1">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="close-btn" onclick="togglePopup(1)">&times;</div>
+            <h1>Director, Information Security</h1>
+            <h5>Direct hire/salary+bonus</h5>
+            <h6>Requirements</h6>
+            <ul>
+              <li>
+                Providing consultation to business partners to influence
+                security best practices and establish solid security principles
+                across the organization
+              </li>
+              <li>
+                Strong understanding of security principles for cloud and
+                on-premise systems in at least one of the following:
+                network/infrastructure, servers, mobile, system configuration
+              </li>
+              <li>
+                Knowledge of securing development pipelines such as automated
+                code scanning tools and API management
+              </li>
+              <li>
+                Experience with securing containers including container
+                management solutions such as Kubernetes
+              </li>
+              <li>
+                Experience with managing enterprise grade cloud security
+                solutions such as Cloud Access Security Brokers (CASB)
+              </li>
+              <li>
+                Knowledge of security defenses against data breaches, broken
+                authentication, hacking, account hijacking, malicious insiders,
+                third parties, APTs, data loss and Denial of Service attacks
+              </li>
+              <li>
+                Ability to provide direction and guidance at all levels of the
+                organization on architectural use cases and requirements
+              </li>
+              <li>
+                Work with business units, infrastructure services, and
+                application development teams to choose appropriate technology
+                solutions.
+              </li>
+              <li>
+                A demonstrated ability to integrate various information
+                security, application, network and data protection technologies
+                and controls into solutions to mitigate risk
+              </li>
+              <li>
+                Significant experience in information and/or network security,
+                including hands on experience in security systems (e.g.
+                firewalls, intrusion detection systems, endpoint software,
+                authentication systems, log management, content filtering, etc.)
+              </li>
+              <li>
+                Knowledge of Security and Industry frameworks such as
+                ISO27001/02, NIST 800-53, SANS Top 20 Critical Security
+                Controls, COBIT, PCI-DSS, and NIST Cybersecurity Framework a
+                combination of relevant industry certifications related to
+                Information Security (e.g. CISSP, CISM), Architecture (e.g.
+                TOGAF, AWS Certified Solutions Architect), and Cloud (e.g. AWS,
+                Google, and Azure including Microsoft 365)
+              </li>
+              <li>
+                Demonstrated experience with assessment, development,
+                implementation, and optimization across a broad set of security
+                technologies such as secure software development, application
+                security, data loss prevention, cryptography, key management,
+                and identity access management.
+              </li>
+              <li>
+                Ability to contextualize security issues and business risks both
+                verbally and in writing
+              </li>
+              <li>
+                Strong communication skills, business acumen, analytical and
+                problem-solving skills
+              </li>
+              <li>
+                Strong personality with the will and ability to enforce new
+                policies across the organization, especially at the executive
+                level.
+              </li>
+              <li>
+                Experience working with cloud security and governance tools.
+              </li>
+              <li>Experience with a 24x7, highly-available architecture.</li>
+            </ul>
+            <a href="applications.html" class="btn btn-warning btn-lg">Apply Now</a>
+          </div>
+        </div>
+
+        <!-- Cloud Architect Popup -->
+        <div class="popup" id="popup2">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="close-btn" onclick="togglePopup(2)">&times;</div>
+            <h1>Cloud Architect</h1>
+            <h5>Direct hire/salary+bonus</h5>
+            <p>
+              We are seeking a seasoned Cloud Architect to work with a team of
+              talented engineers and developers to help our client in moving the
+              cloud program forward and manage a large and growing
+              high-performance cloud computing environment. The ideal candidate
+              should have expert level knowledge of AWS and Azure enterprise
+              environments. There should be a demonstrated ability to scope
+              projects, lead them from a technical perspective and drive to
+              completion. Knowledge of both infrastructure, development, and a
+              deep understanding of the DevOps and SRE functions are required.
+              If you have a passion for high performance computing, then you
+              will be instrumental in continuing to build out our highly
+              scalable, 24/7 available platform for data analysis. Client’s
+              production environment is unlike any other; making the ability and
+              willingness to continuously learn and develop new technologies
+              crucial.
+            </p>
+            <ul>
+              <p><strong>What you will take on:</strong></p>
+              <li>
+                Enterprise application architecture and hands on experience
+                working with Cloud technologies, services and cloud migration in
+                AWS and Azure
+              </li>
+              <li>
+                Migrating n-tiered workloads from on-prem to Azure and AWS
+              </li>
+              <li>Complex migration from monolith to microservices</li>
+              <li>
+                Building hybrid-cloud solutions based on containerization
+                technologies, such as Docker, Kubernetes, and Istio
+              </li>
+              <li>
+                Leading technical design sessions, architecting and documenting
+                technical solutions that are aligned with client business
+                objectives, and identifying gaps between the client's current
+                and desired end states
+              </li>
+              <li>
+                Architecture experience across architecture domains: business,
+                system, application and infrastructure. Big Data and Analytics
+                experience a plus
+              </li>
+              <li>
+                Ability to communicate across business units and the ability to
+                interface with and communicate complex technical concepts to a
+                broad range of internal and external stakeholders
+              </li>
+              <li>
+                Environment & Deployment orchestration and configuration
+                management tools (Azure DevOps, Jenkins, Chef, Puppet,
+                Terraform, Kubernetes)
+              </li>
+              <li>
+                Writing software that uses Cloud SDKs to manage infrastructure
+                as code
+              </li>
+              <li>
+                Cloud operations including availability/resource monitoring,
+                consumption monitoring
+              </li>
+              <li>
+                Systems monitoring with vendor provided and open source
+                monitoring platforms
+              </li>
+              <li>
+                Architecting cloud solutions to address industry regulations
+                like PCI, SOX, HIPAA, GDPR
+              </li>
+              <li>
+                Expert level knowledge of networking protocols such as HTTP,
+                DNS, TCP/IP, virtual networks, and Load Balancing
+              </li>
+            </ul>
+
+            <ul>
+              <p><strong>What you already have:</strong></p>
+              <li>
+                10+ years of architecture experience across architecture
+                domains: business, system, application and infrastructure. Big
+                Data and Analytics experience is a plus
+              </li>
+              <li>
+                6+ years of enterprise application architecture and 3+ years of
+                hands on experience working with Cloud technologies, services
+                and cloud migration in AWS and Azure
+              </li>
+              <li>
+                Strong understanding of medium to large scale computing
+                solutions across the full enterprise stack. Hands-on technical
+                expert and have experience working as a consultant
+              </li>
+              <li>
+                An understanding of enterprise software development tools and
+                methodologies, including typical enterprise application
+                architectures and the ability to write basic scripted or compile
+                code
+              </li>
+              <li>
+                Experience with one or more of the following programming
+                languages: Java, Node.js, Python, or Scala
+              </li>
+              <li>
+                Experience with cloud application development solutions
+                including PaaS, Serverless, or API Management
+              </li>
+              <li>
+                Experience migrating n-tiered workloads from on-prem to Azure
+                and AWS
+              </li>
+              <li>
+                Have led at least one complex migration from monolith to
+                microservices
+              </li>
+              <li>
+                Experience in architecting cloud solutions to address industry
+                regulations like PCI, SOX, HIPAA, GDPR
+              </li>
+              <li>
+                Expert level knowledge of networking protocols such as HTTP,
+                DNS, TCP/IP, virtual networks, and Load Balancing
+              </li>
+              <li>
+                Ability to deliver continuous integration/continuous delivery
+                pipelines, utilizing techniques like blue/green and canary
+                deployments, with tools such as Jenkins, CircleCI, TravisCI, and
+                Spinnaker
+              </li>
+              <li>
+                Experience working with Machine Learning Engineers, Data
+                Engineers, or Data Scientists is a plus
+              </li>
+              <li>Knowledge of hybrid cloud security is a plus</li>
+            </ul>
+
+            <ul>
+              <p>Specific Technical Experience</p>
+              <li>Containers: Kubernetes, EKS, AKS, KOps, Helm, Docker </li>
+              <li>Scripting/Orchestration: Ansible, Terraform, Kubernetes</li>
+              <li>Dev Tools:  Graphana, Prometheus, Kibana, Terraform</li>
+              <li>Big Data:   Elastic (ELK), Redis, Hadoop</li>
+              <li>Languages: Python, PowerShell, C</li>
+              <li>
+                Operation Systems:  Linux (RHEL, CentOS, Ubuntu, CoreOS),
+                Microsoft Windows Server
+              </li>
+              <li>
+                CI and Build Management: Jenkins, BitBucket, SVN, Artifactory,
+                Nexus, 
+              </li>
+              <li>Data Mining: ELK</li>
+              <li>SCM: Git, GitHub, Bitbucket, SVN</li>
+            </ul>
+
+            <ul>
+              <p><strong>Certifications:</strong></p>
+              <li>
+                AWS – Solutions Architect Professional and or
+                SysOpsAdministrator
+              </li>
+              <li>
+                Azure – Azure Solutions Architect Expert, Azure Administrator
+                Associate
+              </li>
+            </ul>
+            <a href="applications.html" class="btn btn-warning btn-lg">Apply Now</a>
+          </div>
+        </div>
+
+        <div class="popup" id="popup3">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="close-btn" onclick="togglePopup(3)">&times;</div>
+            <h1>Account Executive – Platform</h1>
+            <h5>Salary+ Double OTE</h5>
+            <h6>Remote</h6>
+            <p>
+              We are seeking a collaborative Account Executive with background
+              in the Retailand/or CPG space, and proven track record in selling
+              high-end B2B IT solutions (preferably, data/ data analytics). You
+              will have real-world experiences using data analytics to help
+              customers solve complex business problems. You will act as a
+              strategic advisor to potential clients by first understanding the
+              challenges they face and then connecting them to ways client can
+              help overcome those challenges to deliver value. You will possess
+              a true consultative approach and are passionate about providing a
+              fit-for-purpose solution for clients. As an integral component of
+              client success, you should enjoy, and be willing to travel
+              domestically to customer sites will be required as needed.
+            </p>
+            <ul>
+              <p><strong>What you will take on:</strong></p>
+              <li>
+                You will work on expanding clien’s footprint in several existing
+                account as well as build a qualified pipeline of new business
+                within the Retail and/or CPG space. You will do it by
+                understanding high priority problems customers face and advising
+                them on how client can provide solutions
+              </li>
+              <li>
+                Expertly drive a complex buying cycle with both technical &
+                business decision makers while engaging internal stakeholders as
+                needed In partnership with Sales Engineering; uncover true
+                customer needs, lead discovery meetings, produce tailored demos,
+                deliver Proof of Concepts.
+              </li>
+              <li>
+                You will collaborate with Sales Engineers, Marketing, and
+                Customer Success throughout the sales process to ensure we are
+                effectively communicating our value proposition.
+              </li>
+              <li>
+                Negotiate contracts and T&C, close business and collaborate with
+                Customer Success to map revenue strategy and long-term success
+                for the customer 
+              </li>
+              <li>
+                Deliver accurate forecasting, pipeline management and campaign
+                nurturing within Salesforce CRM
+              </li>
+              <li>Be accountable for annual quota achievement</li>
+              <li>
+                Assimilate and share competitor intelligence keeping Product
+                and Marketing teams informed of market activity and provide
+                feedback from the field to improve our competitive position and
+                messaging.
+              </li>
+              <li>
+                Maintaining, and growing your knowledge base in the
+                ever-changing Consumer landscape & target customer ecosystem
+              </li>
+              <li>Champion for customer references and case studies</li>
+            </ul>
+
+            <ul>
+              <p><strong>What you will bring:</strong></p>
+              <li>
+                At least 10 years’ experience hunting for new business, and
+                selling enterprise analytic & technology platforms to large
+                enterprises with a track of successful new accounts closing
+              </li>
+              <li>
+                Strong knowledge of the Retail and / or CPG space, and data
+                analytics ecosystem
+              </li>
+              <li>
+                Historically demonstrating success in exceeding sales targets,
+                and annual quota
+              </li>
+              <li>
+                Consultative sales, ability to listen and ask open questions to
+                gain a deep understanding of customer needs.
+              </li>
+              <li>
+                Clearly articulation of ideas and a collaborative style of work.
+              </li>
+              <li>
+                Positive interpersonal skills and strong executive presence,
+                with a roll up your sleeves attitude and an insatiable desire to
+                win
+              </li>
+              <li>
+                Ability to quickly gain a deep knowledge of the customer’s
+                business, current economic and industry trends and potential new
+                business opportunities
+              </li>
+              <li>
+                Ability to effectively communicate to both senior business
+                executives and senior technology executives at Fortune 500
+                companies
+              </li>
+              <li>
+                Superior written and verbal communication skills, with the
+                ability to write clear proposals that resonate with senior
+                executives
+              </li>
+              <li>
+                Thrives in and embraces a fast-paced environment that is
+                constantly changing
+              </li>
+              <li>
+                Entrepreneurial business savvy, comfortable to contribute &
+                operate within a fast paced environment
+              </li>
+            </ul>
+            <a href="/applications.html" class="btn btn-warning btn-lg">Apply Now</a>
+          </div>
+        </div>
+
+        <!-- End Jobs Section -->
+        </div>
+      </div>
+      <footer class="row">
+        <div class="col-md-6">
+          <p class="mb-0">Proud memeber of</p>
+          <a
+            ><img
+              src="/img/footer/HCCCLogo.png"
+              alt="Hudson County Chamber of Commerce Logo"
+          /></a>
+        </div>
+        <div class="col-md-6">
+          <p>
+            <a href="https://brumellstaffing.com/"
+              >&copyBrumell Staffing 2021</a
+            >
+          </p>
+          <p>Website developed by <a href="#">Utsav Kafley</a></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

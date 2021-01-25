@@ -87,26 +87,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #727272;
 }
 
-/*
- * Footer
- */
-.blog-footer {
-  padding: 2.5rem 0;
-  color: #f9f9f9;
-  text-align: center;
-  background-color: #727272;
-  border-top: .05rem solid #e5e5e5;
+/* ===========PAGE CONTAINER=========== */
+.page-container{
+  position: relative;
+  min-height: 100vh;
 }
 
-.blog-footer a{
+
+/* ==============HEADER SECTION=========== */
+
+.contact-icon a{
   text-decoration: none;
-  color:#ffc107;
+  color: #727272;
 }
-
-.blog-footer a:hover{
-  color:#ffc107;
-}
-
 
 /* NAV SECTION*/
 nav{
@@ -124,6 +117,12 @@ nav a{
 
 nav a:hover{
   color:#fff;
+}
+
+/* CONTENT WRAP */
+
+.content-wrap{
+  padding-bottom: 10rem;
 }
 
 /* MAIN SECTION */
@@ -156,7 +155,127 @@ nav a:hover{
   color:#00b2ff
 }
 
-/* FOOTER SECTION */
-footer{
-  background-color:black;
+
+/* JOBS PAGE */
+
+/*============= JOBS POPUP =============*/
+
+.job-list li:hover{
+  transition: 200ms ease-in-out;
+  background-color:whitesmoke;
+}
+
+.popup .overlay{
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.7);
+  z-index: 1;
+  display:none;
+}
+
+.popup .content {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0);
+  background: #fff;
+  width:80%;
+  height: 80%;
+  z-index:2;
+  text-align:center;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+.popup.active overlay{
+  display: block;
+}
+
+.popup.active .content{
+  transition: all 800ms ease-in-out;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+.popup .close-btn{
+  cursor: pointer;
+  position: absolute;
+  right:20px;
+  top:20px;
+  width:30px;
+  height:30px;
+  background:#ffc107;
+  font-size:25px;
+  font-weight:600;
+  line-height: 30px;
+  text-align:center;
+  border-radius: 50%;
+}
+
+.content ul, h6{
+  text-align: left;
+}
+
+.content li{
+  padding-top: 10px;
+}
+
+/* ==================APPLICATION FORM====================== */
+
+.application-form{
+  box-sizing: border-box;
+  /* border: 1px solid #ffc107; */
+  width: 25%;
+  padding: 2.5rem;
+  box-shadow: 20px 20px 20px #e5e5e5;
+
+}
+
+.application-form input,select{
+  padding:10px;
+  margin:10px;
+  border:0;
+}
+
+.application-form input{
+  border-bottom: 1px solid #ffc107;
+}
+
+
+/*=============POPUP STYLING=============*/
+.popup h6{
+  text-decoration: underline;
+}
+
+/*=============FOOTER=============*/
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10rem;
+  color: #f9f9f9;
+  text-align: center;
+  background-color: #727272;
+
+}
+
+footer p{
+  padding-top: 15px;
+}
+
+footer a{
+  text-decoration: none;
+  color:#ffc107;
+}
+
+footer a:hover{
+  color:#ffc107;
+}
+
+footer img{
+  width:15%;
+  height: auto;
 }
