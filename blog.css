@@ -234,13 +234,13 @@ nav a:hover{
 
 }
 
-.application-form input,select{
+.application-form input,select, textarea{
   padding:10px;
   margin:10px;
   border:0;
 }
 
-.application-form input{
+.application-form input, textarea{
   border-bottom: 1px solid #ffc107;
 }
 
