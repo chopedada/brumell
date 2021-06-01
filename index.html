@@ -1,240 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.79.0" />
+    <title>Brumell Staffing</title>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="" />
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
-  <meta name="generator" content="Hugo 0.79.0" />
-  <title>Brumell Staffing</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.0/examples/blog/"
+    />
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/blog/" />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Font -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
-
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
       }
-    }
-  </style>
 
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/0191b82b39.js" crossorigin="anonymous"></script>
-  <!-- Custom styles for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet" />
-  <!-- Custom styles for this template -->
-  <link href="style.css" rel="stylesheet" />
-  <!-- Jobs JS link -->
-  <script src="js/jobs.js"></script>
-</head>
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
 
-<body>
-  <div class="page-container">
-    <div class="content-wrap">
-      <header class="container blog-header py-3">
-        <div class="row flex-nowrap justify-content-between align-items-center">
-          <div class="col-md-3 logo">
-            <img src="/img/logo.png" alt="" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/0191b82b39.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom styles for this template -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- Jobs JS link -->
+    <script src="js/jobs.js"></script>
+  </head>
+
+  <body>
+    <div class="page-container">
+      <div class="content-wrap">
+        <header class="container blog-header py-3">
+          <div
+            class="row flex-nowrap justify-content-between align-items-center"
+          >
+            <div class="col-md-3 logo">
+              <img src="/img/logo.png" alt="" />
+            </div>
+            <div class="col-md-3 contact-icon">
+              <a class="row mb-1" href="tel:347-816-5215"
+                ><i class="fas fa-phone-square-alt"> 347-816-5215</i></a
+              >
+              <a class="row" href="mailto:info@brumellstaffing.com"
+                ><i class="fas fa-envelope"> info@brumellstaffing.com</i></a
+              >
+            </div>
           </div>
-          <div class="col-md-3 contact-icon">
-            <a class="row mb-1" href="tel:347-816-5215"><i class="fas fa-phone-square-alt"> 347-816-5215</i></a>
-            <a class="row" href="mailto:info@brumellstaffing.com"><i class="fas fa-envelope">
-                info@brumellstaffing.com</i></a>
-          </div>
+        </header>
+
+        <div class="container nav-scroller py-1 mb-3">
+          <nav class="d-flex justify-content-around">
+            <a class="p-2" href="/index.html">Home</a>
+            <a class="p-2" href="/index.html#about">About Us</a>
+            <a class="p-2" href="/jobs.html">Find Jobs</a>
+            <a class="p-2" href="/contact.html">Contact Us</a>
+          </nav>
         </div>
-      </header>
 
-      <div class="container nav-scroller py-1 mb-3">
-        <nav class="d-flex justify-content-around">
-          <a class="p-2" href="/index.html">Home</a>
-          <a class="p-2" href="/index.html#about">About Us</a>
-          <a class="p-2" href="/jobs.html">Find Jobs</a>
-          <a class="p-2" href="/contact.html">Contact Us</a>
-        </nav>
+        <main class="container">
+          <div class="jumbotron p-4 mb-3 p-md-5 text-white banner">
+            <div class="col-md-6 banner-text rounded">
+              <h1 class="display-4">
+                We have an eye for spotting great talent
+              </h1>
+              <p class="lead my-3">
+                Here at Brumell Staffing we work tirelessly to make sure your
+                needs are met. We specialize in connecting employers with
+                exceptional talent and provide an environment for job searchers
+                to find their next big opportunity.
+              </p>
+            </div>
+          </div>
+
+          <div class="row mx-0 text-center industry">
+            <div class="col-md-3 mt-4">
+              <a href="/jobs.html"><img src="/img/industry/legal.jpg" alt="" class="w-75" />
+              <h3 class="mt-4">Legal</h3></a>
+            </div>
+
+            <div class="col-md-3 mt-4">
+              <a href="/jobs.html"><img src="/img/industry/IT.jpg" alt="" class="w-75" />
+              <h3 class="mt-4">IT</h3></a>
+            </div>
+
+            <div class="col-md-3 mt-4">
+              <a href="/jobs.html"><img src="/img/industry/hr.jpg" alt="" class="w-75" />
+              <h3 class="mt-3">Human Resources</h3></a>
+            </div>
+
+            <div class="col-md-3 mt-4">
+              <a href="/jobs.html"><img src="/img/industry/finance.jpeg" alt="" class="w-75" />
+              <h3 class="mt-4">Finance</h3></a>
+            </div>
+
+            <div class="col-md-3 mt-4">
+              <a href="/jobs.html"><img src="/img/industry/administrative.jpg" alt="" class="w-75" />
+              <h3 class="mt-4">Administrative</h3></a>
+            </div>
+
+            <div class="col-md-3 mt-4">
+              <a href="/jobs.html"><img src="/img/industry/marketing.jpg" alt="" class="w-75" />
+              <h3 class="mt-4">Sales & Marketin</h3></a>
+            </div>
+
+            <div class="col-md-3 mt-4">
+              <a href="/jobs.html"><img src="/img/industry/healthcare.jpg" alt="" class="w-75" />
+              <h3 class="mt-3">Healthcare</h3></a></div>
+
+            <div class="col-md-3 mt-4">
+              <a href="/jobs.html"><img src="/img/industry/education.jpg" alt="" class="w-75" />
+              <h3 class="mt-4">Education</h3></a></div>
+          </div>
+
+          <div class="row mx-0 mb-4" id="about">
+            <div class="col-md-12 text-center">
+              <h3 class="pt-4 mt-4 border-top">Meet the team!</h3></a>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Monica Brumell</h5>
+                    <strong class="d-inline-block mb-2 text-warning"
+                      >Founder</strong
+                    >
+                    <p class="card-text">
+                      Monica Brumell holds the steering wheel of the company,
+                      she is responsible for the strategic direction, growth,
+                      vision and performance of the company.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Gandhi Basnet</h5>
+                    <strong class="d-inline-block mb-2 text-warning"
+                      >Technical Advisor</strong
+                    >
+                    <p class="card-text">
+                      With over 20 years of experience in the IT sector, Gandhi
+                      helps the team at Brumell Staffing make the correct
+                      decision to optimize our services and mentor younger
+                      employees.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Utsav Kafley</h5>
+                    <strong class="d-inline-block mb-2 text-warning"
+                      >Developer</strong
+                    >
+                    <p class="card-text">
+                      Utsav takes charge of the design and development of our
+                      site here at Brumell Staffing and provides continous
+                      support and updates to our ever-changing database.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Trevor Spoon</h5>
+                    <strong class="d-inline-block mb-2 text-warning"
+                      >Hiring Manager</strong
+                    >
+                    <p class="card-text">
+                      Trevor has accumulated years of experience as a hiring
+                      manager and has an eye for finding the perfect match for
+                      employers with job seekers and vice versa.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-12 text-center mission my-4">
+              <h3 class="py-4 my-4">
+                With an eye for spotting great talent, Brumell Staffing
+                Solutions aims to be the “go to” recruiting services by
+                providing the highest quality of service to our clients,
+                customers and candidates to their satisfaction.
+              </h3>
+            </div>
+          </div>
+        </main>
       </div>
-
-      <main class="container">
-        <div class="jumbotron p-4 mb-3 p-md-5 text-white banner">
-          <div class="col-md-6 banner-text rounded">
-            <h1 class="display-4">
-              We have an eye for spotting great talent
-            </h1>
-            <p class="lead my-3">
-              Here at Brumell Staffing we work tirelessly to make sure your
-              needs are met. We specialize in connecting employers with
-              exceptional talent and provide an environment for job searchers
-              to find their next big opportunity.
-            </p>
-          </div>
+      <footer class="row">
+        <div class="col-md-6">
+          <p class="mb-0">Proud memeber of</p>
+          <a
+            ><img
+              src="/img/footer/HCCCLogo.png"
+              alt="Hudson County Chamber of Commerce Logo"
+          /></a>
         </div>
-
-        <div class="row mx-0 text-center industry">
-          <div class="col-md-3 mt-4">
-            <img src="/img/industry/1.jpg" alt="" class="w-75" />
-            <h3 class="mt-4">Legal</h3>
-          </div>
-
-          <div class="col-md-3 mt-4">
-            <img src="/img/industry/2.jpg" alt="" class="w-75" />
-            <h3 class="mt-4">Technology</h3>
-          </div>
-
-          <div class="col-md-3 mt-4">
-            <img src="/img/industry/3.jpg" alt="" class="w-75" />
-            <h3 class="mt-3">Human Resources</h3>
-          </div>
-
-          <div class="col-md-3 mt-4">
-            <img src="/img/industry/4.jpeg" alt="" class="w-75" />
-            <h3 class="mt-4">Finance</h3>
-          </div>
+        <div class="col-md-6">
+          <p>
+            <a href="https://brumellstaffing.com/"
+              >&copyBrumell Staffing 2021</a
+            >
+          </p>
+          <p>
+            Website developed by
+            <a href="https://github.com/utsavkafley">Utsav Kafley</a>
+          </p>
         </div>
-
-        <div class="row mx-0 mb-4 about">
-          <div class="col-md-12 text-center">
-            <h3 class="pt-4 mt-4 border-top">Meet the team!</h3>
-          </div>
-
-          <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Monica Brumell</h5>
-                  <strong class="d-inline-block mb-2 text-warning">Founder</strong>
-                  <p class="card-text">Monica Brumell holds the steering wheel of the company, she
-                    is responsible for the strategic direction, growth, vision
-                    and performance of the company.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Gandhi Basnet</h5>
-                  <strong class="d-inline-block mb-2 text-warning">Technical Advisor</strong>
-                  <p class="card-text">With over 20 years of experience in the IT sector, Gandhi
-                    helps the team at Brumell Staffing make the correct decision
-                    to optimize our services.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Utsav Kafley</h5>
-                  <strong class="d-inline-block mb-2 text-warning">Developer</strong>
-                  <p class="card-text">Utsav takes charge of the design and development of our site
-                    here at Brumell Staffing and provides continous support and
-                    updates to our ever-changing database.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Trevor Spoon</h5>
-                  <strong class="d-inline-block mb-2 text-warning">Hiring Manager</strong>
-                  <p class="card-text">Trevor has accumulated years of experience as a hiring
-                    manager and has an eye for finding the perfect match for
-                    employers with job seekers and vice versa.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-12 text-center mission my-4">
-            <h3 class="py-4 my-4">With an eye for spotting great talent, Brumell Staffing Solutions aims to be the “go
-              to” recruiting services by providing the highest quality of service to our clients, customers and
-              candidates to their satisfaction.</h3>
-          </div>
-          <!-- <div class="col-md-3 about-cards">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-270 position-relative">
-              <div class="col p-4 d-flex flex-column position-static">
-                
-                <h3 class="mb-0">Monica Brumell</h3>
-                <p class="card-text mb-auto">
-                  Monica Brumell holds the steering wheel of the company, she
-                  is responsible for the strategic direction, growth, vision
-                  and performance of the company.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 about-cards">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-270 position-relative">
-              <div class="col p-4 d-flex flex-column position-static">
-                
-                <h3 class="mb-0">Gandhi Basnet</h3>
-                <p class="mb-auto">
-                  With over 20 years of experience in the IT sector, Gandhi
-                  helps the team at Brumell Staffing make the correct decision
-                  to optimize our services.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 about-cards">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-270 position-relative">
-              <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-warning">Developer</strong>
-                <h3 class="mb-0">Utsav Kafley</h3>
-                <p class="card-text mb-auto">
-                  Utsav takes charge of the design and development of our site
-                  here at Brumell Staffing and provides continous support and
-                  updates to our ever-changing database.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 about-cards">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-270 position-relative">
-              <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-warning">Hiring Manager</strong>
-                <h3 class="mb-0">Trevor Spoon</h3>
-                <p class="mb-auto">
-                  Trevor has accumulated years of experience as a hiring
-                  manager and has an eye for finding the perfect match for
-                  employers with job seekers and vice versa.
-                </p>
-              </div>
-            </div>
-          </div> -->
-        </div>
-      </main>
+      </footer>
     </div>
-    <footer class="row">
-      <div class="col-md-6">
-        <p class="mb-0">Proud memeber of</p>
-        <a><img src="/img/footer/HCCCLogo.png" alt="Hudson County Chamber of Commerce Logo" /></a>
-      </div>
-      <div class="col-md-6">
-        <p>
-          <a href="https://brumellstaffing.com/">&copyBrumell Staffing 2021</a>
-        </p>
-        <p>Website developed by <a href="#">Utsav Kafley</a></p>
-      </div>
-    </footer>
-  </div>
-</body>
-
+  </body>
 </html>
